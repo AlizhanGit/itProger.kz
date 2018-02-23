@@ -1,0 +1,146 @@
+#main{
+	             /* eni*/
+	float: left;           /* bagyty: sol jak*/
+	margin-top: 20px;       /* ustingi jagynyn arasy*/
+	      /* sol jagy arasy*/
+}
+
+aside {
+	float: left;
+	margin-top: 20px;
+	
+}
+
+#courses{
+	float: left;
+	width: 90%;
+	margin-top: 10px;
+}
+ #courses>img {
+ 	width: 80%;
+ 	float: left;
+ }
+
+.course{
+width: 100%;
+margin-bottom: 10px;
+font-family: 'Roboto Slab' , serif;
+font-size: 1.2em;
+color: #646464;
+}
+
+.course>img{
+	border:2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+}
+.course>span {
+	float: right;
+	font-weight: bold;
+	color: rgba(236, 101, 80, 1);
+}
+#courses>a>#btn {
+	float: left;
+	margin-left: 20%;
+}
+
+.heading {
+	font-weight: lighter;                 /* arip kalyndygy:; jenil*/       
+	font-size: 1.4em;                    /* arip olwemi:; 1.4*/
+	font-family: 'Roboto Slab' , serif;   /* arip turi:    */
+	border-bottom: 2px solid #db6e6e;     /* aralyk tubi    */
+	float: left;
+	color: #4f4f4f;                         /* tusi*/
+	padding: 0px 5px;                        /* kolemi*/
+}
+.heading:first-letter{     
+	color: #db6e6e;                             /* birinwi aripti kyzyl kylu*/
+}
+
+#news {
+
+	float: left;
+}
+
+
+@media (min-width: 1051px){
+	#main{
+	width: 60%;             /* eni*/
+	margin-left: 3%;       /* sol jagy arasy*/
+}
+aside {
+	width: 30%;
+	margin-left: 2%;
+}
+#news {
+	
+	margin-left: 10%;
+	width: 90%;
+}
+}
+
+@media (max-width: 1050px) and (min-width: 911px){
+	#main{
+	width: 65%;             /* eni*/
+	margin-left: 2%;       /* sol jagy arasy*/
+}
+aside {
+	width: 32%;
+}
+#news {
+	margin-left: 4%;
+	width: 96%;
+}
+}
+
+
+@media (max-width: 910px) and (min-width: 500px){
+	#main{
+	width: 90%;             /* eni*/
+	margin-left: 5%;       /* sol jagy arasy*/
+}
+aside {
+	width: 50%;
+	margin-left: 25%;
+}
+#news {
+	margin-left: 4%;
+	width: 96%;
+}
+}
+
+
+@media (max-width: 499px){
+	#main{
+	width: 90%;             /* eni*/
+	margin-left: 5%;       /* sol jagy arasy*/
+}
+aside {
+	width: 80%;
+	margin-left: 10%
+}
+#news {
+	margin-left: 4%;
+	width: 96%;
+}
+}
+
+@media (max-width: 600px){
+	#courses>a>#btn{
+		margin-left: 5%!important;
+	}
+	}
+
+.block2 {
+	background-color: #fafafa;
+	width: 88%;
+	padding: 3%;
+	border-radius: 5px;
+	border: 1px solid silver;
+	font-size: 1.1em;
+	color: #3e3e3e;
+	float: left;
+}
+

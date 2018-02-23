@@ -1,0 +1,48 @@
+form{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+form>div{
+	float: left;
+	width: 50%;
+}
+
+form>div>input{
+	border-radius: 50px;   /* radiosy */
+	border: 1px solid #c4c4c4;  /* tusi */
+	font-size: 0.8em;
+	padding: 10px 7%;     /* сол заттын размери */
+	margin-bottom: 10px;  /* ekeuinin arasynyn razmeri */
+	background-color: white;
+	width: 70%;
+}
+
+form>div>textarea {
+
+	border-radius: 10px;
+	border: 1px solid #c4c4c4;
+	font-size: 0.8em;
+	padding: 10px;     /* сол заттын размери */
+	background-color: white;
+	width: 90%;
+	resize: vertical;  /* сол zattyn vertikal размери */ 
+	max-height: 200px; /* сол заттын en jogargy biktigi */
+	min-height: 90px; /* сол заттын en tomengi biktigi */
+	}
+
+form>div>input: focus, form>div>textarea: focus {
+
+	border-color: #adadad;
+
+}
+form .btn {
+	border: 0;
+	border-bottom: 4px solid #1999d1;
+	cursor: pointer;
+	background-color: #21a7e1;
+}
+form .btn:hover {
+		border-bottom-color: #1999d1;
+
+}
